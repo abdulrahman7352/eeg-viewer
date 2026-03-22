@@ -1,0 +1,22 @@
+﻿# EEG data files — too large for GitHub
+data/*.edf
+data/*.edf+
+data/*.rec
+
+# Python cache files — auto-generated, not your code
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Virtual environment — your local setup, not the code
+venv/
+env/
+.env
+
+# Mac system files
+.DS_Store
+
+# Editor files
+.vscode/
+*.swp
