@@ -1,0 +1,22 @@
+data:
+  channels: null
+  edf_path: data/chb01_03.edf
+detection:
+  band_hz:
+  - 1
+  - 40
+  gap_sec: 2.0
+  method: power_spike
+  step_sec: 0.5
+  threshold_factor: 2.5
+  window_sec: 2.0
+display:
+  amplitude_scale: 150
+  scroll_step_sec: 5
+  window_sec: 10
+processing:
+  bandpass_hz:
+  - 0.5
+  - 70
+  notch_hz: 60
+  resample_hz: null
