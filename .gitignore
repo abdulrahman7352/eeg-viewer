@@ -1,25 +1,18 @@
-﻿# EEG data files — too large for GitHub
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# Data
 data/*.edf
 data/*.edf+
 data/*.rec
 
-# Python cache files — auto-generated, not your code
-__pycache__/
-*.pyc
-*.pyo
-.pytest_cache/
+# Models
+models/*.pkl
 
-# Virtual environment — your local setup, not the code
-venv/
-env/
-.env
-
-# Mac system files
-.DS_Store
-
-# Editor files
+# IDE
 .vscode/
-*.swp 
-# Auto-generated package info
-eeg_viewer.egg-info/
-
+.idea/
