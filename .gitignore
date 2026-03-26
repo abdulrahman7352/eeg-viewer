@@ -17,3 +17,4 @@ models/*.pkl
 # IDE
 .vscode/
 .idea/
+*.egg-info/
